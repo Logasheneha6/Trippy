@@ -33,6 +33,13 @@ img{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.hero-text h3 {
+    color:#FFD700;
+    font-size: 1.5em; 
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 1px; 
+  }
 
 .hero-text p{
     font-size: 1.3rem;

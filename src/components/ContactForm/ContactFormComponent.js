@@ -35,7 +35,7 @@ const ContactFormComponent = () => {
     </form>
  {
     submitted && (
-        <ModalComponent subtext='In the meantime, feel free to explore our website for more information about our services.' message={thankYouMessage} onClose={handleCloseModal}/>
+        <ModalComponent buttonText='Close' subtext='In the meantime, feel free to explore our website for more information about our services.' message={thankYouMessage} onClose={handleCloseModal}/>
     )
  }
 

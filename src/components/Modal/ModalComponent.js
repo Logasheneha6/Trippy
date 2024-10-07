@@ -6,7 +6,7 @@ const ModalComponent = (props) => {
     <div className="modal-content">
       <h2>{props.message}</h2>
       <p>{props.subtext}</p>
-      <button onClick={props.onClose}>Close</button>
+      <button onClick={props.onClose} className='modal-button'>{props.buttonText}</button>
     </div>
   </div>
   )

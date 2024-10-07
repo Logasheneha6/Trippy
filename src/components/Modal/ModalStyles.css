@@ -27,3 +27,19 @@
     margin-bottom:1.2rem;
   }
   
+  .modal-button{
+    padding:1rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+    white-space: nowrap;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    margin:auto;
+}
+ .modal-button:hover{
+    background:#151516;
+    color:#fff;
+}
